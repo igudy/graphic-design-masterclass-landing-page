@@ -16,9 +16,8 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to right, #a517ba, #5f1782)!important;
+    background-image: linear-gradient(to right, #27960c, #058316)!important;
     padding: 0!important;
-
 }
 
 .navbar-brand img{
@@ -48,9 +47,8 @@ body{
 
 /* Banner Section */
 #banner{
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #27960c, #058316);
     color: #fff;
-    padding-top: 5%;
 }
 
 .promo-title{
@@ -76,6 +74,7 @@ body{
 /* Services */
 #services{
     padding: 80px 0;
+    background: #f8f9fa;
 }
 
 .service-img{
@@ -95,18 +94,19 @@ body{
 
 .title::before{
     content: '';
-    background: #7b1798;
+    background: #058316;
     height: 5px;
     width: 120px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     transform: translateY(63px);
+
 }
 
 .title::after{
     content: '';
-    background: #981eb9;
+    background: #27960c;
     height: 10px;
     width: 60px;
     margin-left: auto;
@@ -116,19 +116,34 @@ body{
     transform: translateY(8px);
 }
 
+
+
+.who::after{
+    content: '';
+    background: #27960c;
+    height: 3px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+
 /* Button */
 #services .btn-primary{
     box-shadow: none;
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
-
+    background-image: linear-gradient(to right, #058316, #27960c);
+ m
 }
 
 /* About Us */
 #about-us{
-    background: #f8f9fa;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -150,10 +165,11 @@ body{
 /* Testimonials */
 #testimonials{
     margin: 100px 0;
+    background: #f8f9fa;
 }
 
 .testimonials{
-    border-left: 4px solid #7b1798;
+    border-left: 4px solid #27960c;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -192,7 +208,7 @@ body{
 
 /* Footer Section */
 #footer{
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #27960c, #058316);
     color: #fff;
 }
 
@@ -217,7 +233,7 @@ body{
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #27960c, #058316);
 }
 
 .footer-box .form-control{
@@ -232,7 +248,7 @@ body{
     border: none;
     border-radius: 0;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #27960c, #058316);
 }
 
 hr{
