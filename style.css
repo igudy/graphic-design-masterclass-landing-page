@@ -49,6 +49,7 @@ body{
 #banner{
     background-image: linear-gradient(to right, #27960c, #058316);
     color: #fff;
+    /* height: 560px; */
 }
 
 .promo-title{
@@ -101,7 +102,6 @@ body{
     margin-right: auto;
     display: block;
     transform: translateY(63px);
-
 }
 
 .title::after{
@@ -116,8 +116,6 @@ body{
     transform: translateY(8px);
 }
 
-
-
 .who::after{
     content: '';
     background: #27960c;
@@ -130,8 +128,6 @@ body{
     transform: translateY(8px);
 }
 
-
-
 /* Button */
 #services .btn-primary{
     box-shadow: none;
@@ -139,11 +135,10 @@ body{
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #058316, #27960c);
- m
 }
 
 /* About Us */
-#about-us{
+#who-is-this-class-for{
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -154,11 +149,19 @@ body{
     margin-top: 8%;
 }
 
-#about-us ul li{
+#who-is-this-class-for ul li{
     margin: 10px 0;
 }
 
-#about-us ul{
+#who-is-this-class-for ul{
+    margin-left: 20px;
+}
+
+#featuring ul li{
+    margin: 10px 0;
+}
+
+#featuring ul{
     margin-left: 20px;
 }
 
@@ -189,6 +192,10 @@ body{
 #social-media{
     background: #f8f9fa;
     padding: 100px 0;
+}
+
+.feature{
+    margin-bottom: 10px;
 }
 
 #social-media p{
@@ -260,5 +267,3 @@ hr{
     padding-bottom: 20px;
     text-align: center;
 }
-
-
